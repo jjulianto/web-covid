@@ -13,7 +13,7 @@ html {
 
 section {
     width: 100%;
-    min-height: 700px;
+    min-height: 100vh;
 }
 
 
@@ -46,10 +46,10 @@ section {
 .navbar {
     background-color: rgb(4, 121, 255);
     padding: 5px;
-    position: sticky;
+    position: sticky !important;
     top: 0;
     overflow: auto;
-    z-index: 99;
+    z-index: 1;
 }
 
 .navbar .navbar-brand {
@@ -113,12 +113,6 @@ section {
     background-repeat: no-repeat;
 }
 
-.herobwa,
-.herobwa1,
-.herobwa2 {
-    padding-top: 10px;
-}
-
 .herobwa h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -148,4 +142,30 @@ section {
     color: rgb(4, 121, 255) !important;
     border: 0;
     cursor: pointer;
+}
+
+.herobwa-1 {
+    padding-top: 80px;
+}
+
+.herobwa-1 h1,
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 !important;
+    color: rgb(4, 121, 255);
+}
+
+.herobwa-1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.card-1 {
+    border: 0 !important;
+}
+
+.card-img {
+    width: 15rem !important;
+    width: 60%;
+    margin: auto;
 }
