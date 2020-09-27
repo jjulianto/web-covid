@@ -12,55 +12,57 @@
 </head>
 
 <body data-spy="scroll" data-target="#navigation" data-offset="350">
-    <nav class="navbar navbar-expand-lg navbar-light" id="navigation">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+    <section id="home">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigation">
+            <div class="container">
+                <a class="navbar-brand" href="#">
                 COVID-19
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-            <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto nav nav-pills">
-                    <li class="nav-item align-self-center">
-                        <a class="nav-link active" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item align-self-center">
-                        <a class="nav-link" href="#penyebab">Penyebab</a>
-                    </li>
-                    <li class="nav-item align-self-center">
-                        <a class="nav-link" href="#pencegahan">Pencegahan</a>
-                    </li>
-                    <li class="nav-item align-self-center">
-                        <a class="nav-link" href="#statistik">Statistik</a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto nav nav-pills">
+                        <li class="nav-item align-self-center">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                            <a class="nav-link" href="#penyebab">Penyebab</a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                            <a class="nav-link" href="#pencegahan">Pencegahan</a>
+                        </li>
+                        <li class="nav-item align-self-center">
+                            <a class="nav-link" href="#statistik">Statistik</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <section class="page page-1" id="home">
-        <div class="herobwa pt-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col align-self-center">
-                        <h1 class="mb-4">
-                            COVID-19 <br /> Corona Virus
-                        </h1>
-                        <p class="mb-4">
-                            Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi
-                            paru-paru yang berat, hingga kematian.
-                        </p>
-                        <a href="#penyebab"><button class="btn btn-started">Get Started</button></a>
-                    </div>
-                    <div class="col d-none d-sm-block">
-                        <img width="550" src="images/face-mask.png" alt="Corona">
+        <div class="page page-1">
+            <div class="herobwa">
+                <div class="container">
+                    <div class="row">
+                        <div class="col align-self-center">
+                            <h1 class="mb-4">
+                                COVID-19 <br /> Corona Virus
+                            </h1>
+                            <p class="mb-4">
+                                Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan gangguan ringan pada sistem pernapasan, infeksi
+                                paru-paru yang berat, hingga kematian.
+                            </p>
+                            <a href="#penyebab"><button class="btn btn-started">Get Started</button></a>
+                        </div>
+                        <div class="col d-none d-sm-block">
+                            <img width="550" src="images/face-mask.png" alt="Corona">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <section class="page page-2" id="penyebab">
         <div class="herobwa-1">
@@ -146,6 +148,9 @@
             </div>
         </div>
     </section>
+
+    <!-- Home Button -->
+    <a href="#" type="button" class="btn btn-primary home-button"><i class="fas fa-angle-double-up"></i></a>
 </body>
 
 </html>

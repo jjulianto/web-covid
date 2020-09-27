@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 html {
@@ -11,7 +12,7 @@ html {
     box-sizing: border-box;
 }
 
-section {
+.page {
     width: 100%;
     min-height: 100vh;
 }
@@ -46,10 +47,6 @@ section {
 .navbar {
     background-color: rgb(4, 121, 255);
     padding: 5px;
-    position: sticky !important;
-    top: 0;
-    overflow: auto;
-    z-index: 1;
 }
 
 .navbar .navbar-brand {
@@ -97,8 +94,11 @@ section {
 }
 
 .page-1 {
+    padding-top: 80px;
+    padding-bottom: 250px;
     position: relative;
     background-color: rgb(4, 121, 255);
+    z-index: 1;
 }
 
 .page-1::before {
@@ -168,4 +168,14 @@ section {
     width: 15rem !important;
     width: 60%;
     margin: auto;
+}
+
+a.home-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 28px;
 }

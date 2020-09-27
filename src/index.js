@@ -8,7 +8,11 @@ import "jquery";
 import 'bootstrap';
 import AOS from 'aos';
 
+//Modules
 import 'regenerator-runtime';
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
-// AOS
 AOS.init();
+library.add(fas);
+dom.watch();
