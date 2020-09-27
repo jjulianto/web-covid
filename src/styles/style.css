@@ -179,3 +179,20 @@ a.home-button {
     border-radius: 100px;
     font-size: 28px;
 }
+
+@media screen and (max-width: 990px) {
+    .page-1 {
+        height: 0;
+    }
+    .herobwa {
+        padding-top: 6rem;
+        text-align: center;
+    }
+    .page-1::before,
+    .herobwa img {
+        visibility: hidden;
+    }
+    .herobwa a button {
+        width: 100%;
+    }
+}

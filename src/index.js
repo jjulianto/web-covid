@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import "jquery";
 import 'bootstrap';
 import AOS from 'aos';
+import main from "./script/view/main.js";
 
 //Modules
 import 'regenerator-runtime';
@@ -16,3 +17,4 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 AOS.init();
 library.add(fas);
 dom.watch();
+document.addEventListener("DOMContentLoaded", main);
