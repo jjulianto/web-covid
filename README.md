@@ -49,11 +49,11 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 These are list of things you need to have before you use the project and how to install them.
-* Python<br>
-Download the Python installer [here](https://nodejs.org/en/download/)<br>
+* Node.js<br>
+Download the Node.js installer [here](https://nodejs.org/en/download/)<br>
 Run the installer
 * Text Editor<br>
-You can choose any text editor that suits you the most, but I reccomend using Visual Studio Code<br>
+You can choose any text editor that suits you the most, but I recomend using Visual Studio Code<br>
 Download the VSCode installer [here](https://code.visualstudio.com/download)<br>
 Run the installer
 
@@ -64,10 +64,10 @@ npm install
 ```
 
 ## Author
-* **Julianto**: [Github](https://github.com/Julianto08)
+Julianto - [Github](https://github.com/Julianto08)
 
 ## API
-[Covid-19 API](https://api.kawalcorona.com/indonesia/provinsi)
+[COVID-19 API](https://api.kawalcorona.com/indonesia/provinsi)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
