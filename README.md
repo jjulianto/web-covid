@@ -42,7 +42,7 @@ A website about the statistics data of the COVID-19 province in Indonesia which 
 * [Bootstrap](https://getbootstrap.com/)
 * [Webpack](https://webpack.js.org/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-* Love
+* [Love](https://pa1.narvii.com/6196/cb17531e2407c40e34d47aaf5c5b7bf69ce62fa0_hq.gif)
 
 ## Getting Started
 To get a local copy up and running follow these simple steps.
