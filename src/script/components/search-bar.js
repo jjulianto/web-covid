@@ -1,25 +1,19 @@
 class SearchBar extends HTMLElement {
 
-    constructor() {
-        super();
-        this.shadowDOM = this.attachShadow({ mode: "open" });
-    }
-
     connectedCallback() {
         this.render();
     }
 
-    set clickEvent(event) {
-        this._clickEvent = event;
-        this.render();
+    get value() {
+        return this.querySelector("#searchElement").value;
     }
 
-    get value() {
-        return this.shadowDOM.querySelector("#searchElement").value;
+    get input() {
+        return this.querySelector("#searchElement");
     }
 
     render() {
-        this.shadowDOM.innerHTML = `
+        this.innerHTML = `
         <style>
             .search-container {
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -33,7 +27,7 @@ class SearchBar extends HTMLElement {
             }
             
             .search-container>input {
-                width: 75%;
+                width: 100%;
                 padding: 16px;
                 border: 0;
                 border-bottom: 1px solid rgb(4, 121, 255);
@@ -55,19 +49,6 @@ class SearchBar extends HTMLElement {
                 font-weight: normal;
             }
             
-            .search-container>button {
-                width: 23%;
-                cursor: pointer;
-                margin-left: auto;
-                padding: 16px;
-                background-color: rgb(4, 121, 255);
-                color: #fff;
-                font-weight: bold;
-                border: 0;
-                text-transform: uppercase;
-                font-family: 'Poppins', sans-serif;
-            }
-            
             @media screen and (max-width: 990px) {
                 .search-container {
                     flex-direction: column;
@@ -77,17 +58,12 @@ class SearchBar extends HTMLElement {
                     width: 100%;
                     margin-bottom: 12px;
                 }
-                .search-container>button {
-                    width: 100%;
-                }
             }
         </style>
-        <div id="search-container" class="search-container">
-            <input placeholder="Search Country" id="searchElement" type="search">
-            <button id="searchButtonElement" type="submit">Search</button>
+        <p class="text-center">Untuk melihat data statistik COVID-19 sebuah provinsi di Indonesia. Carilah dengan nama provinsi nya di kotak pencarian.</p>
+        <div id="search-container" class="search-container" data-aos="fade-up">
+            <input placeholder="Search Province..." id="searchElement" type="search">
         </div>`;
-
-        this.shadowDOM.querySelector("#searchButtonElement").addEventListener("click", this._clickEvent);
     }
 }
 
