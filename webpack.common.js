@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
     entry: "./src/index.js",
     output: {
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "public"),
         filename: "bundle.js"
     },
     module: {
@@ -42,7 +42,7 @@ module.exports = {
         new copyWebpackPlugin({
             patterns: [{
                 from: path.resolve(__dirname, 'src/images'),
-                to: path.resolve(__dirname, 'dist/images')
+                to: path.resolve(__dirname, 'public/images')
             }]
         }),
     ]
