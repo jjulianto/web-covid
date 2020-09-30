@@ -64,7 +64,7 @@ npm install
 ```
 
 ## Author
-Julianto - [Github](https://github.com/Julianto08)
+**Julianto** - [Github](https://github.com/Julianto08)
 
 ## API
 [COVID-19 API](https://api.kawalcorona.com/indonesia/provinsi)
