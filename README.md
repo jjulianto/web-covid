@@ -58,7 +58,12 @@ Download the VSCode installer [here](https://code.visualstudio.com/download)<br>
 Run the installer
 
 ### Installation
-Install this project with npm Command Line
+1. Clone the repo
+```
+https://github.com/Julianto08/web-covid.git
+```
+
+2. Install this project with npm Command Line
 ```
 npm install
 ```
