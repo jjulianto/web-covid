@@ -59,7 +59,7 @@ Run the installer
 ### Installation
 1. Clone the repo
 ```
-https://github.com/Julianto08/web-covid.git
+git clone https://github.com/Julianto08/web-covid.git
 ```
 
 2. Install this project with npm Command Line
