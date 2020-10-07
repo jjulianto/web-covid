@@ -1,4 +1,3 @@
-# Web COVID-19
 ![Author](https://img.shields.io/badge/made%20by-julianto08-blue)
 ![GitHub followers](https://img.shields.io/github/followers/Julianto08?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/julianto08/web-covid?style=social)
@@ -40,6 +39,7 @@ A website about the statistics data of the COVID-19 province in Indonesia which 
 
 * [Bootstrap](https://getbootstrap.com/)
 * [Webpack](https://webpack.js.org/)
+* [JQuery](https://jquery.com/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Love](https://pa1.narvii.com/6196/cb17531e2407c40e34d47aaf5c5b7bf69ce62fa0_hq.gif)
 
@@ -62,7 +62,7 @@ Run the installer
 git clone https://github.com/Julianto08/web-covid.git
 ```
 
-2. Install this project with npm Command Line
+2. Install NPM packages
 ```
 npm install
 ```
