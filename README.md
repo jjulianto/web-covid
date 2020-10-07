@@ -55,6 +55,11 @@ Run the installer
 You can choose any text editor that suits you the most, but I recomend using Visual Studio Code<br>
 Download the VSCode installer [here](https://code.visualstudio.com/download)<br>
 Run the installer
+* NPM<br>
+Download npm in Command Line Interface by typing the command :<br>
+```
+npm install npm@latest -g
+```
 
 ### Installation
 1. Clone the repo
