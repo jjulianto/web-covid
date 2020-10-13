@@ -33,7 +33,7 @@
 - [License](#license)
 
 ## About The Project
-A website about the statistics data of the COVID-19 province in Indonesia which was created using a webpack. This website was created as an exercise before I started the Project Work. Check it the live project [here](https://covid19-province.web.app/)
+A website about the statistics data of the COVID-19 province in Indonesia which was created using a webpack. This website was created as an exercise before I started the Project Work. Check it the live project [here](https://covid19-provinceid.web.app/)
 
 ### Built With
 

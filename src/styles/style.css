@@ -56,15 +56,6 @@ html {
     font-weight: 700;
 }
 
-.navbar-nav .nav-item .nav-link.active {
-    color: #fff !important;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 700;
-    text-decoration: underline 2px;
-    text-underline-offset: 6px;
-    padding-bottom: 10px;
-}
-
 .navbar-nav .nav-item .nav-link {
     color: #fff !important;
     font-family: "Quicksand", sans-serif;
@@ -87,10 +78,6 @@ html {
 .nav-link:hover::after {
     width: 100%;
     transition: width .3s;
-}
-
-.nav-link.active::after {
-    display: none;
 }
 
 .page-1 {
@@ -196,6 +183,7 @@ a.home-button {
 @media screen and (max-width: 990px) {
     .page-1 {
         height: 0;
+        padding-top: 0;
     }
     .herobwa {
         padding-top: 6rem;
@@ -208,13 +196,16 @@ a.home-button {
     .herobwa a button {
         width: 100%;
     }
+    a.home-button {
+        right: 10px;
+    }
 }
 
 @media (max-width: 700px) {
     a.home-button {
         right: 5px;
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         font-size: 20px;
     }
 }

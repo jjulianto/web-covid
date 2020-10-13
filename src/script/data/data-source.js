@@ -1,5 +1,5 @@
 class DataSource {
-    static country() {
+    static province() {
         const proxy = 'https://cors-anywhere.herokuapp.com/';
         return fetch(`${proxy}https://api.kawalcorona.com/indonesia/provinsi/`)
             .then(response => {
