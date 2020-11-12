@@ -60,24 +60,15 @@ html {
     color: #fff !important;
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
+    border-radius: 0;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-    color: #fff !important;
+    opacity: 0.8;
 }
 
-.nav-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #fff;
-    transition: width .3s;
-}
-
-.nav-link:hover::after {
-    width: 100%;
-    transition: width .3s;
+.navbar-nav .nav-item .nav-link.active {
+    border-bottom: 2px solid #fff;
 }
 
 .page-1 {
@@ -157,7 +148,13 @@ html {
     margin: auto;
 }
 
-.footer {
+.province-list {
+    display: block;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+footer {
     background-color: rgb(4, 121, 255);
     padding: 5px;
     color: #fff;
@@ -166,7 +163,7 @@ html {
     font-weight: 700;
 }
 
-.footer span {
+footer span {
     font-family: 'Poppins', sans-serif;
 }
 

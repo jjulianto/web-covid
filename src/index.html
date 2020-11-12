@@ -11,9 +11,9 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
 </head>
 
-<body>
+<body class="scroll-area" data-spy="scroll" data-target="#navigation" data-offset="350">
     <section id="home">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigation">
             <div class="container">
                 <a class="navbar-brand" href="#"> COVID-19 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,16 +21,16 @@
                 </button>
                 <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto nav nav-pills">
-                        <li class="nav-item align-self-center">
+                        <li class="nav-item">
                             <a class="nav-link" href="#home">Home</a>
                         </li>
-                        <li class="nav-item align-self-center">
+                        <li class="nav-item">
                             <a class="nav-link" href="#penyebab">Penyebab</a>
                         </li>
-                        <li class="nav-item align-self-center">
+                        <li class="nav-item">
                             <a class="nav-link" href="#pencegahan">Pencegahan</a>
                         </li>
-                        <li class="nav-item align-self-center">
+                        <li class="nav-item">
                             <a class="nav-link" href="#statistik">Statistik</a>
                         </li>
                     </ul>
@@ -169,17 +169,17 @@
             <div class="container">
                 <h1 class="text-center">Statistik COVID-19</h1>
                 <search-bar></search-bar>
-                <province-list></province-list>
+                <province-list class="province-list my-3 px-4"></province-list>
             </div>
         </div>
     </section>
 
-    <footer class="footer">
+    <footer>
         <p>Made by Julianto | <span>COVID-19</span></p>
     </footer>
 
     <!-- Home Button -->
-    <a href="#" type="button" class="btn btn-primary home-button"><i class="fas fa-angle-double-up"></i></a>
+    <a href="#home" type="button" class="btn btn-primary home-button"><i class="fas fa-chevron-up"></i></a>
 </body>
 
 </html>
