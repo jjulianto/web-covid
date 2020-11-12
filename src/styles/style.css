@@ -152,6 +152,7 @@ html {
     display: block;
     height: 400px;
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 footer {
