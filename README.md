@@ -76,7 +76,7 @@ npm install
 **Julianto** - [Github](https://github.com/Azquiorra)
 
 ## API
-[COVID-19 API](https://api.kawalcorona.com/indonesia/provinsi)
+[COVID-19 API](https://indonesia-covid-19.mathdro.id/api/provinsi/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
