@@ -1,9 +1,9 @@
-![Author](https://img.shields.io/badge/made%20by-julianto08-blue)
-![GitHub followers](https://img.shields.io/github/followers/Julianto08?style=social)
-![GitHub forks](https://img.shields.io/github/forks/julianto08/web-covid?style=social)
-![GitHub stars](https://img.shields.io/github/stars/julianto08/web-covid?style=social)
+![Author](https://img.shields.io/badge/made%20by-Azquiorra-blue)
+![GitHub followers](https://img.shields.io/github/followers/Azquiorra?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Azquiorra/web-covid?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Azquiorra/web-covid?style=social)
 [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]()
-![GitHub last commit](https://img.shields.io/github/last-commit/Julianto08/web-covid)
+![GitHub last commit](https://img.shields.io/github/last-commit/Azquiorra/web-covid)
 
 <p align="center">
   <h3 align="center">COVID-19 using API</h3>
@@ -11,12 +11,12 @@
   <p align="center">
     Data Statistics Province COVID-19 in Indonesia
     <br />
-    <a href="https://github.com/Julianto08/web-covid"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Azquiorra/web-covid"><strong>Explore the docs »</strong></a>
     <br />
     <br />    
-    <a href="https://github.com/Julianto08/web-covid/issues">Report Bug</a>
+    <a href="https://github.com/Azquiorra/web-covid/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Julianto08/web-covid/issues">Request Feature</a>
+    <a href="https://github.com/Azquiorra/web-covid/issues">Request Feature</a>
   </p>
 </p><br>
 
@@ -33,7 +33,7 @@
 - [License](#license)
 
 ## About The Project
-A website about the statistics data of the COVID-19 province in Indonesia which was created using a webpack. This website was created as an exercise before I started the Project Work. Check it the live project [here](https://covid19-provinceid.firebaseapp.com/)
+A website about the statistics data of the COVID-19 province in Indonesia which was created using a webpack. This website was created as an exercise before I started the Project Work. Check it the live project [here](https://covid19-provinceid.web.app/)
 
 ### Built With
 
@@ -64,7 +64,7 @@ npm install npm@latest -g
 ### Installation
 1. Clone the repo
 ```
-git clone https://github.com/Julianto08/web-covid.git
+git clone https://github.com/Azquiorra/web-covid.git
 ```
 
 2. Install NPM packages
@@ -73,7 +73,7 @@ npm install
 ```
 
 ## Author
-**Julianto** - [Github](https://github.com/Julianto08)
+**Julianto** - [Github](https://github.com/Azquiorra)
 
 ## API
 [COVID-19 API](https://api.kawalcorona.com/indonesia/provinsi)
