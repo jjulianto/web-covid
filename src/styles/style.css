@@ -21,27 +21,27 @@ html {
 /* FONT IMPORT */
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 400;
-    src: local('Poppins Regular'), url('../../fonts/poppins-v13-latin-regular.woff') format('woff');
+    src: local("Poppins Regular"), url("../../fonts/poppins-v13-latin-regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-weight: 700;
-    src: local('Poppins Bold'), url('../../fonts/poppins-v13-latin-700.woff') format('woff');
+    src: local("Poppins Bold"), url("../../fonts/poppins-v13-latin-700.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Quicksand';
+    font-family: "Quicksand";
     font-weight: 400;
-    src: local('Quicksand Regular'), url('../../fonts/quicksand-v21-latin-regular.woff') format('woff');
+    src: local("Quicksand Regular"), url("../../fonts/quicksand-v21-latin-regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Quicksand';
+    font-family: "Quicksand";
     font-weight: 700;
-    src: local('Quicksand Bold'), url('../../fonts/quicksand-v21-latin-700.woff') format('woff');
+    src: local("Quicksand Bold"), url("../../fonts/quicksand-v21-latin-700.woff") format("woff");
 }
 
 .navbar {
@@ -50,7 +50,7 @@ html {
 }
 
 .navbar .navbar-brand {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     color: #fff !important;
     font-weight: 700;
@@ -61,7 +61,7 @@ html {
     font-family: "Quicksand", sans-serif;
     font-weight: 700;
     border-radius: 0;
-    transition: all .3s;
+    transition: all 0.3s;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -69,33 +69,13 @@ html {
 }
 
 .navbar-nav .nav-item .nav-link::after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -2;
-}
-
-.navbar-nav .nav-item .nav-link::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: rgb(0, 113, 243);
-    transition: all .3s;
-    z-index: -1;
-}
-
-.navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
-}
-
-.navbar-nav .nav-item .nav-link:hover::before {
-    width: 100%;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -123,13 +103,13 @@ html {
 }
 
 .herobwa h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     color: #fff;
 }
 
 .herobwa p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #fff;
 }
@@ -159,13 +139,13 @@ html {
 
 .herobwa-1 h1,
 .card-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700 !important;
     color: rgb(4, 121, 255);
 }
 
 .herobwa-1 p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
 
@@ -191,12 +171,12 @@ footer {
     padding: 5px;
     color: #fff;
     text-align: center;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
 }
 
 footer span {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 a.home-button {
@@ -209,18 +189,20 @@ a.home-button {
     font-size: 28px;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 767px) {
     .page-1 {
-        height: 0;
         padding-top: 0;
+        padding-bottom: 3.5rem;
     }
     .herobwa {
-        padding-top: 6rem;
+        padding-top: 4rem;
         text-align: center;
     }
-    .page-1::before,
     .herobwa img {
-        visibility: hidden;
+        margin-bottom: 2rem;
+    }
+    .page-1::before {
+        display: none;
     }
     .herobwa a button {
         width: 100%;
@@ -244,3 +226,11 @@ a.home-button {
         right: 10px;
     }
 }
+
+@media (min-width: 768px) {
+    .herobwa img {
+        padding-left: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {}
